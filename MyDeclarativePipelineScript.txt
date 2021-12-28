@@ -1,0 +1,31 @@
+pipeline{
+agent any
+tools{
+maven "maven3.8.4"
+}
+stages{
+ steps('1.codeclone'){
+ git 'https://github.com/GECUS/maven-web-app'
+}
+}
+stage{
+step('2.mavenBuild'){
+sh "mvn clean package"
+}
+}
+stage{
+step('3.CodeQuality'){
+sh "mvn sonar:sonar"
+}
+}
+stage{
+step('4.UploadArtifacts2Nexus'){
+sh "mvn deploy"
+}
+}
+stage{
+step('5.Deploying2Tomcat'){
+
+}
+}
+}
