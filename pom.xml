@@ -105,7 +105,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ci-snapshots</name>
-	      <url>http://34.214.78.254:5000/repository/ci-snapshots/</url>
+	      <url>http://34.214.78.254:5000/repository/nexus-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
