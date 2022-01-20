@@ -98,13 +98,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
+	      <name>ci-releases</name>
 	      <url>http://34.214.78.254:5000/repository/ci-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
+	      <name>ci-snapshots</name>
 	      <url>http://34.214.78.254:5000/repository/ci-snapshots/</url>
 	    </snapshotRepository>
 	    
