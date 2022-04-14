@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ci-releases</name>
-	      <url>http://34.214.78.254:5000/repository/ci-releases/</url>
+	      <url>http://52.4.0.137:8081/repository/eb-bts-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ci-snapshots</name>
-	      <url>http://34.214.78.254:5000/repository/nexus-snapshots/</url>
+	      <url>http://52.4.0.137:8081/repository/eb-bts-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
